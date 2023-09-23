@@ -1,3 +1,4 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@600&family=Roboto:wght@300&display=swap');
 .navbar{
     background-color: black;
     
@@ -83,4 +84,11 @@
     background-color: #808080;
     text-align: center;
 }
-
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
